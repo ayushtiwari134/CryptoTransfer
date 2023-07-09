@@ -16,5 +16,7 @@ The app has currently only able to send `goerli` from one account to another but
 along with a message and a keyword for a gif
 `(the last two will be added later.)`
 
+the application is still incomplete.
+
 
 
