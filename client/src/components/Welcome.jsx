@@ -77,7 +77,7 @@ const Welcome = () => {
                                 step="0.0001"
                                 onChange={(e) => { handleChange(e, 'message') }}
                                 value={formData.message} />
-                            <button className='my-2 w-full cursor-pointer hover:bg-blue-700 bg-blue-500 text-white p-2 rounded-full' type='button ' onClick={handleSubmit}>Submit</button>
+                            <button className='my-2 w-full cursor-pointer hover:bg-blue-700 bg-blue-500 text-white p-2 rounded-full' type='button ' onClick={handleSubmit}>Transfer</button>
                         </>}
                 </div>
             </div>
