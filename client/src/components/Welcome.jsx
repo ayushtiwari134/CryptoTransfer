@@ -1,17 +1,28 @@
-import { useState, useContext } from 'react'
+// imports
+import { useContext } from 'react'
 import { BsInfoCircle } from 'react-icons/bs'
 import { SiEthereum } from 'react-icons/si'
 import Loader from './Loader'
 import { TransactionContext } from '../context/TransactionContext'
 
+
+// the functional based component
 const Welcome = () => {
+
+    // importing and destructuring the context contents from the useContext hook.
     const { connectWallet, currentAccount, formData, handleChange, sendTransaction, isLoading, setFormData } = useContext(TransactionContext);
 
-
+    // function which is fired everytime the user clicks the "Submit" button.
     const handleSubmit = (e) => {
+
+        // destructuring data from the formData state
         const { addressTo, amount, message, gif } = formData;
         e.preventDefault();
+
+        // checks if the file inputs are empty or not.
         if (!addressTo || !amount || !gif || !message) return;
+
+        // this function carries out the transfer of crypto from the sender to receiver address.
         sendTransaction();
     }
 
