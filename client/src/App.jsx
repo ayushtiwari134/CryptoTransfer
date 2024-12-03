@@ -1,5 +1,5 @@
 import { Navbar, Footer, Services, Welcome, Loader, Transactions } from './components/index'
-
+import { ethers } from 'ethers';
 function App() {
 
   return (

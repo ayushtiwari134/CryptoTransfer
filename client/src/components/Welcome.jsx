@@ -4,6 +4,7 @@ import { BsInfoCircle } from 'react-icons/bs'
 import { SiEthereum } from 'react-icons/si'
 import Loader from './Loader'
 import { TransactionContext } from '../context/TransactionContext'
+import { ethers } from 'ethers';
 
 
 // the functional based component

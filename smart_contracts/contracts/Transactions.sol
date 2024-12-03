@@ -1,6 +1,5 @@
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
-
 //this marks the beginning of the contract.
 contract Transactions {
     

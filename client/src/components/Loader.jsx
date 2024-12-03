@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { ethers } from 'ethers';
 const Loader = () => {
     return (
         <div className='flex justify-center items-center py-3'>

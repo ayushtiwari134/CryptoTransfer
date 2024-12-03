@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { HiMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
+import { ethers } from 'ethers';
 const Navbar = () => {
     const [open, setOpen] = useState(false)
 

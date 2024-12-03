@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { ethers } from 'ethers';
 const Services = () => {
     return (
         <div className="mainWrapper gradient-bg-services text-white flex md:flex-row flex-col min-h-screen md:items-center md:justify-between  justify-start lg:px-40 px-20 gap-20">
